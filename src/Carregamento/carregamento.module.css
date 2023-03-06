@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2{
+    color: #ffffff;
+}
+
+.img{
+    max-width: 40%;
+    min-height: fit-content;
+}
+
+.img2{
+    max-width: 20%;
+    min-height: fit-content;
+}

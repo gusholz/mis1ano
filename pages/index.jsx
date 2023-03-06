@@ -1,9 +1,7 @@
-import '@nextcss/reset';
+import App from '../src/App/app';
 
-export default function App(){
+export default function Index(){
     return(
-        <h1>
-            Oi
-        </h1>
+        <App/>
     )
 }

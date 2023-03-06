@@ -1,0 +1,23 @@
+.img{
+    position: fixed;
+    top: 5%;
+    left: 90%;
+    max-width: 7%;
+}
+
+.h2{
+    position: fixed;
+    left: 15%;
+    top: 90%;
+    color: #fff;
+    z-index: 1;
+}
+
+.textoSuporte{
+    position: fixed;
+    left: 18%;
+    top: 5%;
+    color: #fff;
+    max-width: 70%;
+    text-align: right;
+}
