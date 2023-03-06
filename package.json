@@ -1,0 +1,25 @@
+{
+  "name": "mis1ano",
+  "version": "1.0.0",
+  "description": "Ar experience",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusholz/mis1ano.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gusholz/mis1ano/issues"
+  },
+  "homepage": "https://github.com/gusholz/mis1ano#readme",
+  "dependencies": {
+    "@nextcss/reset": "^0.2.4-beta",
+    "next": "^13.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
