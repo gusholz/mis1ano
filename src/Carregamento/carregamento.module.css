@@ -16,10 +16,10 @@
 
 .img{
     max-width: 40%;
-    min-height: fit-content;
+    max-height: fit-content;
 }
 
 .img2{
     max-width: 20%;
-    min-height: fit-content;
+    max-height: fit-content;
 }

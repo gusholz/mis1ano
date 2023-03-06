@@ -5,7 +5,6 @@ import Camera from '../Camera/camera';
 import Interface from '../Interface/interface';
 import styles from './app.module.css'
 
-
 export default function App() {
   const [width, setWidth] = useState(null);
   const [loaded, setLoaded] = useState(false);
@@ -32,6 +31,5 @@ export default function App() {
             {loaded ? <Camera/> : null}
             {loaded ? <Interface/> :null}
         </div>
-    
     )
 }

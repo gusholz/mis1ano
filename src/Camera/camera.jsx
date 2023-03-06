@@ -11,7 +11,6 @@ export default function Camera() {
 
   useEffect(() => {
     const constraints = { audio: false, video: { facingMode: "environment" } };
-
     async function enableCamera() {
       try {
         const stream = await navigator.mediaDevices.getUserMedia(constraints);
@@ -46,7 +45,11 @@ export default function Camera() {
           const markers = ar.detect(imageData);
 
           if (markers.length > 0) {
-            console.log(`ArUco marker found: ${markers[0].id}`);
+            return (
+              <>
+                <h1>FUNCIONOU</h1>
+              </>
+            )
           }
 
           setLoading(false);
